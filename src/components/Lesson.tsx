@@ -3,7 +3,7 @@ import { PlayCircle, Video } from "lucide-react";
 interface LessonProps {
   title: string;
   duration: string;
-  isCurrent: boolean;
+  isCurrent?: boolean;
   onPlay: () => void;
 }
 
